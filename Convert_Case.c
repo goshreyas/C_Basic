@@ -8,3 +8,8 @@ char toUpper(char ch) {
 char toLower(char ch) {
   return (ch | VAL);   // Set 7th bit.
 }
+
+/*
+Ref:
+    https://www.geeksforgeeks.org/c-operators-question-15/
+*/
