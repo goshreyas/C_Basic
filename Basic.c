@@ -40,5 +40,7 @@ int main()
     return 0;
 }
 
+Ref:
+  - https://www.geeksforgeeks.org/c-c-quiz-111-question-4/
 -----------------------------------------------------------------
   
