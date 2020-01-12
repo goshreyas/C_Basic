@@ -6,7 +6,7 @@ typedef struct node
 { 
  int data; 
  struct node *nextPtr; 
-}* NODEPTR;  // Valid
+}* NODEPTR;  // Valid & compact form.
 
 NODEPTR n1;
 
@@ -23,4 +23,5 @@ NODEPTR n1;
 
 ==================================================================
 
-Explanation: Either of the above declarations can be used for “NODEPTR nodePtr;”. In fact, first one is the compact form of second one.
+Explanation: Either of the above declarations can be used for “NODEPTR nodePtr;”. In fact,
+first one is the compact form of second one.
