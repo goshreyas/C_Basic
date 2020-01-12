@@ -1,6 +1,12 @@
 
-Use of "#pragma once":
-In the C and C++ programming languages, #pragma once is a non-standard but widely 
-  supported preprocessor directive designed to cause the current source file to be 
-  included only once in a single compilation.
+1: Use of "#pragma once":
+  In the C and C++ programming languages, #pragma once is a non-standard but widely 
+    supported preprocessor directive designed to cause the current source file to be 
+    included only once in a single compilation.
+
+
+
+2: Preprocessing operator (# & ##)
+  https://www.geeksforgeeks.org/and-operators-in-c/
+
 
