@@ -1,0 +1,8 @@
+
+------------------------------------------------------------------------------------
+Check whether a given array is a k sorted array or not:
+  - https://www.geeksforgeeks.org/check-whether-given-array-k-sorted-array-not/
+k-ordered array problem:
+  - https://cs.stackexchange.com/questions/25839/k-ordered-array-problem
+
+------------------------------------------------------------------------------------
