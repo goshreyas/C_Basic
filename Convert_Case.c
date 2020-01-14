@@ -24,6 +24,7 @@ void my_toUpper(char* str, int index)
 int main()
 {
 	char arr[10] = "geeksquiz";
+	char *arr = "geeksquiz";  // This Will not work, because the string is on read-only memory.
 	my_toUpper(arr, 0);
 	my_toUpper(arr, 5);
 	printf("%s", arr);
