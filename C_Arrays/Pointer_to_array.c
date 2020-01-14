@@ -28,3 +28,26 @@ Ref:
   - https://www.geeksforgeeks.org/gate-gate-it-2008-question-50/
 --------------------------------------------------------------------------------
 
+#include <stdio.h>
+
+int main()
+{
+	float arr[5] = {12.5, 10.0, 13.5, 90.5, 0.5};
+	//float *ptr1 = &arr[0];
+	float *ptr1 = arr;
+	printf("&arr[0]: %p, arr: %p, &arr: %p\n", &arr[0], arr, &arr);
+	printf("&arr[0]+1: %p, arr+1: %p, &arr+1: %p\n", &arr[0]+1, arr+1, &arr+1);
+	float *ptr2 = ptr1 + 3;
+
+	printf("%f ", *ptr2);
+	printf("%lu", ptr2 - ptr1);
+
+return 0;
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Output:
+&arr[0]: 0x7ffd1120bdf0, arr: 0x7ffd1120bdf0, &arr: 0x7ffd1120bdf0
+&arr[0]+1: 0x7ffd1120bdf4, arr+1: 0x7ffd1120bdf4, &arr+1: 0x7ffd1120be04
+90.500000 3
+--------------------------------------------------------------------------------
