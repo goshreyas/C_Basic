@@ -4,10 +4,33 @@ char *str3 = "GeeksQuiz";
 int *ip; char *cp; float *fp; void *vp;
 sizeof() on above variables are same.
 
+    
+# include <stdio.h>
+#include <string.h>
 
-https://ide.geeksforgeeks.org/YLtwTCs8Bd
+int main()
+{
+
+    char *str = "GeeksQuiz";  // sizeof() will return pointer size i.e. system dependent.
+    int *ip; char *cp; float *fp; void *vp;
+
+    printf("sizeof(str) = %lu\n", sizeof(str));
+    printf("sizeof(ip) = %lu, sizeof(cp) = %lu, sizeof(fp) = %lu, sizeof(vp) = %lu\n", \
+        sizeof(ip), sizeof(cp), sizeof(fp), sizeof(vp));
+
+    
+    return 0;
+}
+
+Output:
+sizeof(str) = 8
+sizeof(ip) = 8, sizeof(cp) = 8, sizeof(fp) = 8, sizeof(vp) = 8
+    
+    
+
 
 ----------------------------------------------------------------------------------------------------
+// https://ide.geeksforgeeks.org/YLtwTCs8Bd
 # include <stdio.h>
 #include <string.h>
 
