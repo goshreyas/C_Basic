@@ -29,3 +29,6 @@ https://cs-fundamentals.com/tech-interview/c/implement-sizeof-operator-in-c
 https://www.geeksforgeeks.org/implement-your-own-sizeof/
 
 #define my_sizeof(type) (char *)(&type+1)-(char*)(&type) 
+
+
+&type+1  --> (&type)+1
