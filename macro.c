@@ -1,7 +1,9 @@
 code the macro offsetof
 https://www.geeksforgeeks.org/the-offsetof-macro/
 
+#define OFFSETOF(TYPE, ELEMENT) ((size_t)&(((TYPE *)0)->ELEMENT)) 
 
+'''
 #include <stdio.h> 
 
 #define OFFSETOF(TYPE, ELEMENT) ((size_t)&(((TYPE *)0)->ELEMENT)) 
@@ -20,7 +22,7 @@ int main()
     getchar(); 
     return 0; 
 } 
-
+'''
 
 code the macro sizeof
 https://cs-fundamentals.com/tech-interview/c/implement-sizeof-operator-in-c
